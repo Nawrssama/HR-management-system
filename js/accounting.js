@@ -11,15 +11,15 @@ getEmplyee();
 function totalSalary (employeeArr){
     let sum = 0;
     for (let i = 0 ; i < employeeArr.length ; i++){
-        sum += employeeArr[i].salary;
+        sum += employeeArr[i].Salary;
     }
     return sum;
 }
 
-function avarageSalary (employeeArr){
+function avarageSalary (){
     let sum = 0;
     for(let i = 0 ; i < employeeArr.length ; i++){
-        sum += employeeArr[i].salary;
+        sum += employeeArr[i].Salary;
     }
     return sum/employeeArr.length;
 }
@@ -51,11 +51,11 @@ function render(){
 
     const th3 = document.createElement("th");
     tr1.appendChild(th3);
-    th3.textContent = "Average salary";
+    th3.textContent = "Average Salary";
 
     const th4 = document.createElement("th");
     tr1.appendChild(th4);
-    th4.textContent = "Total salary";
+    th4.textContent = "Total Salary";
 
     ///////////////// second row ////////////////////////////
 
