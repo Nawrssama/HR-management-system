@@ -127,6 +127,10 @@ footer {
   
 }
 
+#social-media {
+    display: flex;
+    gap: 20px;
+}
 
 #copy-right, #social-media {
     color: azure;
